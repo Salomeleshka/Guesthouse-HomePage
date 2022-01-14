@@ -1,2 +1,2 @@
 # Guesthouse-HomePage
-My first project: homepage for my parents' guesthouse #2020
+My first project in 2020: homepage for my parents' guesthouse
