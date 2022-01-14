@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine Loft</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <h2 class="glow">Wine Loft</h2>
+      <div class="p1">
+        <img id="locIcon" src="img/location.svg" alt="location" width="30px" height="auto">
+        <p>Telavi, Kakheti, Georgia</p>
+      </div>
+      <br>
+      <button class="btnBook"><a href="https://www.booking.com/hotel/ge/wine-loft-vinnyi-loft.html?label=opensearch-plugin;sid=4b7de3f8ae45f59cabb63d557fdc5e53;dest_id=-2330100;dest_type=city;dist=0;group_adults=2;group_children=0;hapos=1;hpos=1;no_rooms=1;room1=A%2CA;sb_price_type=total;sr_order=popularity;srepoch=1591490491;srpvid=479604dd415500b4;type=total;ucfs=1&#hotelTmpl" target="_blank">Book Now</a></button>
+    </div>
+      <div id="navbar">
+        <a class="active" href="javascript:void(0)">About</a>
+        <a href="reviewsPage.html" target="self">Reviews</a>
+        <div class="dropdown">
+            <button class="dropbtn">Rooms
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Wine</a>
+              <a href="#">Mars</a>
+              <a href="#">Music</a>
+            </div>
+          </div> 
+          <a href="contactPage.html" target="self">Contact</a>
+      </div>
+
+      <div class="content">
+        <h3>Welcome to Wine Loft!</h3>
+        
+        <p class="about">Set in Telavi, within 2.2 km of King Erekle II Palace and 2 km of Giant Plane Tree, <i>Wine Loft • Винный Лофт</i> offers accommodation with a garden and free WiFi throughout the property as well as free private parking for guests who drive. The guest house features mountain views and a terrace.
+
+            At the guest house, the rooms are fitted with a balcony with a garden view. At <i>Wine Loft • Винный Лофт</i> the rooms are equipped with air conditioning and a shared bathroom.
+            
+            Guests at the accommodation can enjoy a continental breakfast.
+            
+            Akhali Shuamta Monastery is 12 km from <i>Wine Loft • Винный Лофт</i>. The nearest airport is Tbilisi International Airport, 84 km from the guest house.
+            
+            We speak your language!</p>
+        
+      </div>
+
+        <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="img/ps9.jpg" alt="Wine Room" style="width:100%">
+            <div class="container">
+              <h2>Wine</h2>
+              <p class="title">Description</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p><button class="button">View More</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="img/ps6.jpg" alt="Music Room" style="width:100%">
+            <div class="container">
+              <h2>Music</h2>
+              <p class="title">Description</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p><button class="button">View More</button></p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <img src="img/ps14.jpg" alt="Mars Room" style="width:100%">
+            <div class="container">
+              <h2>Mars</h2>
+              <p class="title">Description</p>
+              <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+              <p><button class="button">View More</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+      <div>
+        <h3 class="mapHead">Find us on map</h3>
+      </div>
+      
+      <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
+  
+  <section class="maps">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.615026773849!2d45.4950741154425!3d41.9226338792186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4045cd8893134b87%3A0x64cfaedac5191963!2zV2luZSBMb2Z0IOKAoiDQktC40L3QvdGL0Lkg0JvQvtGE0YIg4oCiIOGDpuGDleGDmOGDnOGDmOGDoSDhg6Hhg67hg5Xhg5Thg5zhg5g!5e0!3m2!1sen!2sde!4v1591467056133!5m2!1sen!2sde" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</section>
+
+<br>
+
+<div class="footer">
+  <p>© 2020 Copyright: Wine Loft • Telavi</p>
+
+</div>
+
+</body>
+</html>
